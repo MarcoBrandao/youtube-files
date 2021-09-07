@@ -1,0 +1,30 @@
+## SMBIOSes that DON´T need to RENAME the USB controler, regardeless the name of the controler
+iMac18,x or newer
+MacPro7,1 or newer
+Macmini8,1 or newer
+MacBook9,x or newer
+MacBookAir8,x or newer
+MacBookPro13,x or newer
+
+## SMBIOSes that NEED to RENAME just for the controler from XHC1 to SHCI
+iMacPro1,1
+iMac17,x or older
+MacBookAir7,x
+
+## SMBIOSes that NEED to RENAME for controlers from XHC1 to SHCI and EHC1 to EH01
+MacPro6,1
+Macmini7,1
+MacBook8,x
+MacBookAir6,x
+MacBookPro12,x
+
+## SMBIOS that NEED to RENAME for controlers from XHC1 to SHCI, EHC1 to EH01 and EHC2 to EH02
+iMac16,x and older
+MacPro5,1 and older
+Macmini6,x and older
+MacBookAir5,x and older
+MacBookPro11,x and older
+
+XHC1 to SHCI: Necessary for Skylake (6th gen.) and older SMBIOS
+EHC1 to EH01: Necessary for Broadwell (5th gen.) and older SMBIOS
+EHC2 to EH02: Necessary for Broadwell (5th gen.) and older SMBIOS
